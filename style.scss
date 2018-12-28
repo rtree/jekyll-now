@@ -7,6 +7,10 @@
 
 @import "reset";
 @import "variables";
+@font-face {
+  font-family: PixelMplus10-Regular;
+  src: url('https://rtree.github.io/font/PixelMplus10-Regular.ttf') format("truetype");
+}
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -20,6 +24,7 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
+  font-family: PixelMplus10-Regular;
   color: $darkGray;
 }
 
