@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: 感じたことと、見てみたもの
+name: 観察日記
 
 # Short bio or description (displayed in the header)
-description: 美しいものや不思議なものをみて、感じたことの日記です
+description: 見たことをかいていきます
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://rtree.github.io/images/maru.png
