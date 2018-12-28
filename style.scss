@@ -8,8 +8,12 @@
 @import "reset";
 @import "variables";
 @font-face {
-  font-family: PixelMplus10-Regular;
-  src: url('https://rtree.github.io/font/PixelMplus10-Regular.ttf') format("truetype");
+  font-family: PixelMplus12-Regular;
+  src: url('https://rtree.github.io/font/PixelMplus12-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: PixelMplus12-Bold;
+  src: url('https://rtree.github.io/font/PixelMplus12-Bold.ttf') format("truetype");
 }
 // Syntax highlighting @import is at the bottom of this file
 
@@ -24,7 +28,8 @@ html {
 body {
 	background: $white;
   font: 20px/1.4 $helvetica;
-  font-family: PixelMplus10-Regular;
+  font-family: PixelMplus12-Regular;
+  letter-spacing:0.06em;line-height:1.5em;
   color: $darkGray;
 }
 
@@ -37,7 +42,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  font-family: PixelMplus10-Regular;
+  font-family: PixelMplus12-Bold;
   color: $darkerGray;
   font-weight: bold;
 
