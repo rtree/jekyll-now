@@ -23,7 +23,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 20px/1.4 $helvetica;
   font-family: PixelMplus10-Regular;
   color: $darkGray;
 }
@@ -37,6 +37,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
+  font-family: PixelMplus10-Regular;
   color: $darkerGray;
   font-weight: bold;
 
